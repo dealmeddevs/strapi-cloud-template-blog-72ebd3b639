@@ -38,7 +38,7 @@
     "featuredBrands": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::category-featured-brands.category-featured-brands"
+      "target": "api::category-featured-brand-group.category-featured-brand-group"
     }
   }
 }
