@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_featured_brand_groups",
+  "info": {
+    "singularName": "category-featured-brands",
+    "pluralName": "category-featured-brands-list",
+    "displayName": "Category Featured Brands",
+    "description": "Imported from Contentful type categoryFeaturedBrands"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "featuredBrands": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category-featured-brand.category-featured-brand",
+      "required": true
+    },
+    "categoryName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

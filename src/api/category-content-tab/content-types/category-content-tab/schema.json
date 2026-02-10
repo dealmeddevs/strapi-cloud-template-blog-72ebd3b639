@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_content_tabs",
+  "info": {
+    "singularName": "category-content-tab",
+    "pluralName": "category-content-tabs",
+    "displayName": "Category Content Tab",
+    "description": "Imported from Contentful type categoryContentTab"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mainHeader": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryHeader": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "bulletPoints": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category-bullet-point.category-bullet-point",
+      "required": true
+    }
+  }
+}

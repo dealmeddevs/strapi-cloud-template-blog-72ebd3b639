@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_faqs",
+  "info": {
+    "singularName": "category-faq",
+    "pluralName": "category-faqs",
+    "displayName": "Category FAQ",
+    "description": "Imported from Contentful type categoryFaq"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

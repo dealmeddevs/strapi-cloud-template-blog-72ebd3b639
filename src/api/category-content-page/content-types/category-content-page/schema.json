@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_content_pages",
+  "info": {
+    "singularName": "category-content-page",
+    "pluralName": "category-content-pages",
+    "displayName": "Category Content Page",
+    "description": "Imported from Contentful type categoryContentPage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "frequentlyAskedQuestions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category-faq.category-faq"
+    },
+    "contentTabs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category-content-tab.category-content-tab"
+    },
+    "featuredBrands": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category-featured-brands.category-featured-brands"
+    }
+  }
+}

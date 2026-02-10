@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_bullet_points",
+  "info": {
+    "singularName": "category-bullet-point",
+    "pluralName": "category-bullet-points",
+    "displayName": "Category Bullet Point",
+    "description": "Imported from Contentful type categoryBulletPoint"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "displayText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
