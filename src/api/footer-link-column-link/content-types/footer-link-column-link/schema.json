@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_link_column_links",
+  "info": {
+    "singularName": "footer-link-column-link",
+    "pluralName": "footer-link-column-links",
+    "displayName": "Footer Link Column Link",
+    "description": "Imported from Contentful type footerLinkColumnLink"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "linkTitle": {
+      "type": "string",
+      "required": true
+    },
+    "pathlink": {
+      "type": "string"
+    }
+  }
+}

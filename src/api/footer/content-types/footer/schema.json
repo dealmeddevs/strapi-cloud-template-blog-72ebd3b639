@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": "Imported from Contentful type footer"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "text"
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "addressLine3": {
+      "type": "string"
+    },
+    "twitterLink": {
+      "type": "string"
+    },
+    "linkedInLink": {
+      "type": "string"
+    },
+    "helpTitle": {
+      "type": "string"
+    },
+    "daysOpen": {
+      "type": "string"
+    },
+    "hoursOpen": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "footerTopTitle": {
+      "type": "string"
+    },
+    "footerTopSlogan": {
+      "type": "text"
+    },
+    "footerTopText": {
+      "type": "text"
+    },
+    "footerTopSubmitButtonText": {
+      "type": "string"
+    },
+    "youtubeLink": {
+      "type": "string"
+    },
+    "linkColumns": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::footer-link-column.footer-link-column"
+    }
+  }
+}
