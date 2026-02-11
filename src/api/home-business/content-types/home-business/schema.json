@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "home_business",
+  "collectionName": "home_businesses",
   "info": {
     "singularName": "home-business",
-    "pluralName": "home-business",
+    "pluralName": "home-businesses",
     "displayName": "Page Content Section 09",
     "description": "Imported from Contentful type homeBusiness"
   },
