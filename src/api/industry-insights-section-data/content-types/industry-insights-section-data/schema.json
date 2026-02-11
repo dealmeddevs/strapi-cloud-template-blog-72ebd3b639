@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_insights_section_datas",
+  "info": {
+    "singularName": "industry-insights-section-data",
+    "pluralName": "industry-insights-section-datas",
+    "displayName": "Page Content Section 15/SectionData",
+    "description": "Imported from Contentful type industryInsightsSectionData"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

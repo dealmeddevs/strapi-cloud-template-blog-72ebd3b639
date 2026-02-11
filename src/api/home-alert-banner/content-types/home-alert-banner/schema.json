@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_alert_banners",
+  "info": {
+    "singularName": "home-alert-banner",
+    "pluralName": "home-alert-banners",
+    "displayName": "Page Banner Section 05 (Alerts)",
+    "description": "Imported from Contentful type homeAlertBanner"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

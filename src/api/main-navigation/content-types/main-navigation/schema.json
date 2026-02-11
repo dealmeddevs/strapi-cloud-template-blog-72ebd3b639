@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_navigations",
+  "info": {
+    "singularName": "main-navigation",
+    "pluralName": "main-navigations",
+    "displayName": "MainNavigation",
+    "description": "Imported from Contentful type mainNavigation"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "navigationSections": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

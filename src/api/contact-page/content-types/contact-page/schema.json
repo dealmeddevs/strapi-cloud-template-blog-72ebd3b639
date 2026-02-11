@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Page Content Section 16",
+    "description": "Imported from Contentful type contactPage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "header": {
+      "type": "text",
+      "required": true
+    },
+    "title1": {
+      "type": "string",
+      "required": true
+    },
+    "text1": {
+      "type": "richtext",
+      "required": true
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    },
+    "text2": {
+      "type": "richtext",
+      "required": true
+    },
+    "hoursTitle": {
+      "type": "string",
+      "required": true
+    },
+    "hoursText": {
+      "type": "string",
+      "required": true
+    },
+    "hoursTextShort": {
+      "type": "string",
+      "required": true
+    },
+    "contactTitle": {
+      "type": "string",
+      "required": true
+    },
+    "contactNumber": {
+      "type": "string",
+      "required": true
+    },
+    "contactEmail": {
+      "type": "string",
+      "required": true
+    },
+    "faxTitle": {
+      "type": "string",
+      "required": true
+    },
+    "faxNumber": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

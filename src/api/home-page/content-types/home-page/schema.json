@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": "Imported from Contentful type homePage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "helmetTitle": {
+      "type": "string",
+      "required": true
+    },
+    "helmetKeywords": {
+      "type": "text",
+      "required": true
+    },
+    "helmetDescription": {
+      "type": "text",
+      "required": true
+    },
+    "homepageSections": {
+      "type": "json"
+    }
+  }
+}

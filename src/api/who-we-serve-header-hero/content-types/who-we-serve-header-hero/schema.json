@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "who_we_serve_header_heros",
+  "info": {
+    "singularName": "who-we-serve-header-hero",
+    "pluralName": "who-we-serve-header-heros",
+    "displayName": "Page Banner Section 03",
+    "description": "Imported from Contentful type whoWeServeHeaderHero"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    },
+    "imageMobile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    },
+    "altImageText": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "layouttype": {
+      "type": "string"
+    }
+  }
+}

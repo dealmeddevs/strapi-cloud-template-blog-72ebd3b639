@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resources_side_by_sides",
+  "info": {
+    "singularName": "resources-side-by-side",
+    "pluralName": "resources-side-by-sides",
+    "displayName": "Page Content Section 14",
+    "description": "Imported from Contentful type resourcesSideBySide"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "leftItemTitle": {
+      "type": "string",
+      "required": true
+    },
+    "leftItemText": {
+      "type": "text",
+      "required": true
+    },
+    "leftButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "leftPdf": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    },
+    "rightItemTitle": {
+      "type": "string",
+      "required": true
+    },
+    "rightItemText": {
+      "type": "text"
+    },
+    "rightButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "rightPdf": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    }
+  }
+}

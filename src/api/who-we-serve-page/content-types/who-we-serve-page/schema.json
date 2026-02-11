@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "who_we_serve_pages",
+  "info": {
+    "singularName": "who-we-serve-page",
+    "pluralName": "who-we-serve-pages",
+    "displayName": "WhoWeServePage",
+    "description": "Imported from Contentful type whoWeServePage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "pageSections": {
+      "type": "json",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_text_sections",
+  "info": {
+    "singularName": "content-text-section",
+    "pluralName": "content-text-sections",
+    "displayName": "Page Content Section 18",
+    "description": "Imported from Contentful type contentTextSection"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "subheader": {
+      "type": "richtext"
+    },
+    "headerText": {
+      "type": "richtext"
+    },
+    "textSections": {
+      "type": "json"
+    }
+  }
+}

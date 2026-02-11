@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "website_contents",
+  "info": {
+    "singularName": "website-content",
+    "pluralName": "website-contents",
+    "displayName": "WebsiteContent",
+    "description": "Imported from Contentful type websiteContent"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string"
+    },
+    "websiteContentData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

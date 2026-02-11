@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_business",
+  "info": {
+    "singularName": "home-business",
+    "pluralName": "home-business",
+    "displayName": "Page Content Section 09",
+    "description": "Imported from Contentful type homeBusiness"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    },
+    "slogan": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    }
+  }
+}

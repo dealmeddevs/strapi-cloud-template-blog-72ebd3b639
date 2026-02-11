@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_bars",
+  "info": {
+    "singularName": "nav-bar",
+    "pluralName": "nav-bars",
+    "displayName": "NavBar",
+    "description": "Imported from Contentful type navBar"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "navBarSections": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

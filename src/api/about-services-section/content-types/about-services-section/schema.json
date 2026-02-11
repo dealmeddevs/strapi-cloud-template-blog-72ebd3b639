@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_services_sections",
+  "info": {
+    "singularName": "about-services-section",
+    "pluralName": "about-services-sections",
+    "displayName": "Page Content Section 10",
+    "description": "Imported from Contentful type aboutServicesSection"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
