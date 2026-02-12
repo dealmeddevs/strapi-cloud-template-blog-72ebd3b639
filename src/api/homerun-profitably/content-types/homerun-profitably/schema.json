@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homerun_profitablies",
+  "info": {
+    "singularName": "homerun-profitably",
+    "pluralName": "homerun-profitablies",
+    "displayName": "Page Content Section 04",
+    "description": "Imported from Contentful type homerunProfitably"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "linkText": {
+      "type": "string",
+      "required": true
+    },
+    "accordions": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

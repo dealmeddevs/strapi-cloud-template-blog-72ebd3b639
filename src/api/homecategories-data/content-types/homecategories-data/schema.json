@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homecategories_datas",
+  "info": {
+    "singularName": "homecategories-data",
+    "pluralName": "homecategories-datas",
+    "displayName": "Page Content Section 03/categoriesData",
+    "description": "Imported from Contentful type homecategoriesData"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "categoryImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    },
+    "categoryTitle": {
+      "type": "string",
+      "required": true
+    },
+    "categoryText": {
+      "type": "text",
+      "required": true
+    },
+    "categoryName": {
+      "type": "string",
+      "required": true
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    }
+  }
+}
