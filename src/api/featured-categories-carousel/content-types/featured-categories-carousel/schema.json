@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_categories_carousels",
+  "info": {
+    "singularName": "featured-categories-carousel",
+    "pluralName": "featured-categories-carousels",
+    "displayName": "Page Content Section 13",
+    "description": "Imported from Contentful type featuredCategoriesCarousel"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string"
+    }
+  }
+}

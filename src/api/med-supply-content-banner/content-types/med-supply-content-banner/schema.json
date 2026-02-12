@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "med_supply_content_banners",
+  "info": {
+    "singularName": "med-supply-content-banner",
+    "pluralName": "med-supply-content-banners",
+    "displayName": "Page Banner Section 01",
+    "description": "Imported from Contentful type medSupplyContentBanner"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
