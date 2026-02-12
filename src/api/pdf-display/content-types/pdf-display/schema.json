@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pdf_displays",
+  "info": {
+    "singularName": "pdf-display",
+    "pluralName": "pdf-displays",
+    "displayName": "Page Content Section 17",
+    "description": "Imported from Contentful type pdfDisplay"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    }
+  }
+}
