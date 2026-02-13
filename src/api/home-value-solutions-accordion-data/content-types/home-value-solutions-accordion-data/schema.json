@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_value_solutions_accordion_datas",
+  "info": {
+    "singularName": "home-value-solutions-accordion-data",
+    "pluralName": "home-value-solutions-accordion-datas",
+    "displayName": "Page Content Section 05/AccordionData",
+    "description": "Imported from Contentful type homeValueSolutionsAccordionData"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "accordionImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "required": true
+    },
+    "accordionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "accordionText": {
+      "type": "string",
+      "required": true
+    },
+    "accordionUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
