@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "med_supplycontent_sectionitems",
+  "info": {
+    "singularName": "med-supplycontent-sectionitem",
+    "pluralName": "med-supplycontent-sectionitems",
+    "displayName": "Page Content Section 02/Item",
+    "description": "Imported from Contentful type medSupplycontentSectionitem"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
