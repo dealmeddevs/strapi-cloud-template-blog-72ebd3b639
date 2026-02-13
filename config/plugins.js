@@ -1,1 +1,5 @@
-module.exports = () => ({});
+﻿module.exports = () => ({
+  "strapi-cloud": {
+    enabled: false,
+  },
+});
