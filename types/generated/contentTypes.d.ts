@@ -457,7 +457,7 @@ export interface ApiAboutServicesSectionAboutServicesSection
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     services: Schema.Attribute.JSON & Schema.Attribute.Required;
-    text: Schema.Attribute.String & Schema.Attribute.Required;
+    text: Schema.Attribute.Text & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -1903,7 +1903,7 @@ export interface ApiMedSupplyContentBannerMedSupplyContentBanner
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    text: Schema.Attribute.String;
+    text: Schema.Attribute.Text;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -1976,7 +1976,7 @@ export interface ApiMedSupplyContentHeadingMedSupplyContentHeading
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     subtitle: Schema.Attribute.String & Schema.Attribute.Required;
-    text: Schema.Attribute.String & Schema.Attribute.Required;
+    text: Schema.Attribute.Text & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -2015,7 +2015,7 @@ export interface ApiMedSupplyContentSectionMedSupplyContentSection
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     subtitle: Schema.Attribute.String & Schema.Attribute.Required;
-    text: Schema.Attribute.String & Schema.Attribute.Required;
+    text: Schema.Attribute.Text & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

@@ -35,7 +35,7 @@
       "type": "string"
     },
     "text": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
       "type": "media",
