@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "who_we_serve_markets_served_services",
+  "info": {
+    "singularName": "who-we-serve-markets-served-service",
+    "pluralName": "who-we-serve-markets-served-services",
+    "displayName": "Page Content Section 12",
+    "description": "Imported from Contentful type whoWeServeMarketsServedServices"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
