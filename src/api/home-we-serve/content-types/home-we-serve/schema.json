@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_we_serves",
+  "info": {
+    "singularName": "home-we-serve",
+    "pluralName": "home-we-serves",
+    "displayName": "Page Content Section 06",
+    "description": "Imported from Contentful type homeWeServe"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "slogan": {
+      "type": "string",
+      "required": true
+    },
+    "serviceList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
