@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homevalue_solutions",
+  "info": {
+    "singularName": "homevalue-solution",
+    "pluralName": "homevalue-solutions",
+    "displayName": "Page Content Section 05",
+    "description": "Imported from Contentful type homevalueSolutions"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentful_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "slogan": {
+      "type": "string",
+      "required": true
+    },
+    "linkText": {
+      "type": "string",
+      "required": true
+    },
+    "accordions": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
