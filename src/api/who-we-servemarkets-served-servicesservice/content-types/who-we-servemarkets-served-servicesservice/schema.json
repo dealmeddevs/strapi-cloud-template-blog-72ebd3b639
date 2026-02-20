@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "who_we_servemarkets_served_servicesservices",
+  "info": {
+    "singularName": "who-we-servemarkets-served-servicesservice",
+    "pluralName": "who-we-servemarkets-served-servicesservices",
+    "displayName": "Page Content Section 12/Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "iconImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "altImageText": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tabCatId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

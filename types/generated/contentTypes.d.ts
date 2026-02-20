@@ -2237,6 +2237,48 @@ export interface ApiWebsiteContentWebsiteContent
   };
 }
 
+export interface ApiWhoWeServeHeaderHeroWhoWeServeHeaderHero
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'who_we_serve_header_heros';
+  info: {
+    displayName: 'Page Banner Section 03';
+    pluralName: 'who-we-serve-header-heros';
+    singularName: 'who-we-serve-header-hero';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    altImageText: Schema.Attribute.String & Schema.Attribute.Required;
+    contentful_id: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Schema.Attribute.Required;
+    imageMobile: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    > &
+      Schema.Attribute.Required;
+    layouttype: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::who-we-serve-header-hero.who-we-serve-header-hero'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    text: Schema.Attribute.String & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    version: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface ApiWhoWeServeMarketsServedServiceWhoWeServeMarketsServedService
   extends Struct.CollectionTypeSchema {
   collectionName: 'who_we_serve_markets_served_services';
@@ -2305,6 +2347,43 @@ export interface ApiWhoWeServePageWhoWeServePage
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     version: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface ApiWhoWeServemarketsServedServicesserviceWhoWeServemarketsServedServicesservice
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'who_we_servemarkets_served_servicesservices';
+  info: {
+    displayName: 'Page Content Section 12/Service';
+    pluralName: 'who-we-servemarkets-served-servicesservices';
+    singularName: 'who-we-servemarkets-served-servicesservice';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    altImageText: Schema.Attribute.String & Schema.Attribute.Required;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    iconImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    > &
+      Schema.Attribute.Required;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::who-we-servemarkets-served-servicesservice.who-we-servemarkets-served-servicesservice'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    tabCatId: Schema.Attribute.String & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
   };
 }
 
@@ -2866,8 +2945,10 @@ declare module '@strapi/strapi' {
       'api::pdf-display.pdf-display': ApiPdfDisplayPdfDisplay;
       'api::resources-side-by-side.resources-side-by-side': ApiResourcesSideBySideResourcesSideBySide;
       'api::website-content.website-content': ApiWebsiteContentWebsiteContent;
+      'api::who-we-serve-header-hero.who-we-serve-header-hero': ApiWhoWeServeHeaderHeroWhoWeServeHeaderHero;
       'api::who-we-serve-markets-served-service.who-we-serve-markets-served-service': ApiWhoWeServeMarketsServedServiceWhoWeServeMarketsServedService;
       'api::who-we-serve-page.who-we-serve-page': ApiWhoWeServePageWhoWeServePage;
+      'api::who-we-servemarkets-served-servicesservice.who-we-servemarkets-served-servicesservice': ApiWhoWeServemarketsServedServicesserviceWhoWeServemarketsServedServicesservice;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;
