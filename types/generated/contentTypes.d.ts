@@ -2362,10 +2362,14 @@ export interface ApiWhoWeServemarketsServedServicesserviceWhoWeServemarketsServe
     draftAndPublish: true;
   };
   attributes: {
+    activeStatus: Schema.Attribute.String & Schema.Attribute.Required;
     altImageText: Schema.Attribute.String & Schema.Attribute.Required;
+    buttonText: Schema.Attribute.String & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    descriptionOne: Schema.Attribute.Text & Schema.Attribute.Required;
+    descriptionTwo: Schema.Attribute.Text;
     iconImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     > &
@@ -2380,6 +2384,7 @@ export interface ApiWhoWeServemarketsServedServicesserviceWhoWeServemarketsServe
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     tabCatId: Schema.Attribute.String & Schema.Attribute.Required;
+    tabId: Schema.Attribute.String & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
