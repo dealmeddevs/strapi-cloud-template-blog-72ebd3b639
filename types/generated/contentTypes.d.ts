@@ -2365,6 +2365,7 @@ export interface ApiWhoWeServemarketsServedServicesserviceWhoWeServemarketsServe
     activeStatus: Schema.Attribute.String & Schema.Attribute.Required;
     altImageText: Schema.Attribute.String & Schema.Attribute.Required;
     buttonText: Schema.Attribute.String & Schema.Attribute.Required;
+    contentful_id: Schema.Attribute.String & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
