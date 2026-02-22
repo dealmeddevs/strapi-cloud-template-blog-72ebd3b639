@@ -1205,7 +1205,7 @@ export interface ApiHomeAlertBannerHomeAlertBanner
     singularName: 'home-alert-banner';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   attributes: {
     contentful_id: Schema.Attribute.String &
