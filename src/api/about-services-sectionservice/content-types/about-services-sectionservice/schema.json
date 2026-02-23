@@ -4,7 +4,7 @@
   "info": {
     "singularName": "about-services-sectionservice",
     "pluralName": "about-services-sectionservices",
-    "displayName": "Page Content Section 10/Services",
+    "displayName": "Services Intro - Service Card",
     "description": "Imported from Contentful type aboutServicesSectionservices"
   },
   "options": {

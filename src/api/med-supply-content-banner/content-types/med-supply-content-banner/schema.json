@@ -4,7 +4,7 @@
   "info": {
     "singularName": "med-supply-content-banner",
     "pluralName": "med-supply-content-banners",
-    "displayName": "Page Banner Section 01",
+    "displayName": "Hero Banner Section",
     "description": "Imported from Contentful type medSupplyContentBanner"
   },
   "options": {

@@ -4,7 +4,7 @@
   "info": {
     "singularName": "content-page",
     "pluralName": "content-pages",
-    "displayName": "Content Pages",
+    "displayName": "Content Pages (Route List)",
     "description": "Imported from Contentful type contentPages"
   },
   "options": {

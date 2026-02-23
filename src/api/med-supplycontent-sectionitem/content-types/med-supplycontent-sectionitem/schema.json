@@ -4,7 +4,7 @@
   "info": {
     "singularName": "med-supplycontent-sectionitem",
     "pluralName": "med-supplycontent-sectionitems",
-    "displayName": "Page Content Section 02/Item",
+    "displayName": "Content Section - Item",
     "description": "Imported from Contentful type medSupplycontentSectionitem"
   },
   "options": {

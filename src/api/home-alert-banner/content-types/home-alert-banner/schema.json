@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home-alert-banner",
     "pluralName": "home-alert-banners",
-    "displayName": "Page Banner Section 05 (Alerts)",
+    "displayName": "Alert Banner (Global)",
     "description": "Imported from Contentful type homeAlertBanner"
   },
   "options": {

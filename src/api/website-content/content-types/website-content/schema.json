@@ -4,7 +4,7 @@
   "info": {
     "singularName": "website-content",
     "pluralName": "website-contents",
-    "displayName": "WebsiteContent",
+    "displayName": "Website Content (Root)",
     "description": "Imported from Contentful type websiteContent"
   },
   "options": {

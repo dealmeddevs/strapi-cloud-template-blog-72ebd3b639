@@ -4,7 +4,7 @@
   "info": {
     "singularName": "nav-bar",
     "pluralName": "nav-bars",
-    "displayName": "NavBar",
+    "displayName": "Navigation Bar",
     "description": "Imported from Contentful type navBar"
   },
   "options": {
